@@ -1,0 +1,27 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "test prodj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev":"nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonyLo/crm.git"
+  },
+  "author": "SonyaLogvinova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SonyLo/crm/issues"
+  },
+  "homepage": "https://github.com/SonyLo/crm#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
