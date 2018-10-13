@@ -19,9 +19,11 @@ mongoose.connect(keys.mongoURL)
     console.log(err)
 })
 
+
 app.use(passport.initialize())
 require('./middleware/passport')(passport)
 app.use(require('morgan')('dev'))
+app.use('/uploads', express.static('uploads'))
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json())
 app.use(require('cors')())
